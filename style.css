@@ -156,7 +156,7 @@ button:hover {
     overflow: hidden;
 }
 .footer a{
-    color: #ffd60a;
+    color:  #ffc300;
     text-align: center;
     display: block;
     padding: 29px;
@@ -170,7 +170,7 @@ button:hover {
     float: left;
 }
 .footer-logo{
-    color: #ffd60a;
+    color:  #ffc300;
     font-size: 25px;
     font-weight: bold;
     font-style: italic;
