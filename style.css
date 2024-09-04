@@ -181,5 +181,4 @@ button:hover {
 @media screen and (max-width: 768px){
 .ade-container{
     grid-template-columns: 1vmax 1vmax
-} 
-}
+}}
