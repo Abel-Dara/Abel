@@ -47,7 +47,9 @@ body{
     display: block;
     padding: 29px;
     text-decoration: none;
-
+.navbar {
+    background:   #ffc300; 
+}
 }
 .navbar a:hover{
     color: #fff;
