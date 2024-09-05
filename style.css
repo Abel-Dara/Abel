@@ -52,12 +52,9 @@ body{
 }
 .navbar a:hover{
     color: #fff;
-    border: 1px solid black;
     background: #000000;
 }
-.navbar{
-    background: #ffc300;
-}
+
 .navbar a.active {
     background-color: #0e0020;
     color: white;
