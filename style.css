@@ -1,4 +1,5 @@
 *{
+    box-sizing: border-box;
     padding: 0px;
     margin: 0px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
@@ -6,6 +7,7 @@
 }
 body{
     background:  #ffd60a;
+    
     justify-content: center;
     align-items: center;
     display: block;
@@ -35,24 +37,26 @@ body{
 }
 .navbar ul{
     list-style-type: none;
-    background:   #ffc300;
+    background-color:  #000000;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
 }
 .navbar a{
     color: rgb(0, 0, 0);
-    background:   #ffc300;
     text-align: center;
     display: block;
     padding: 29px;
     text-decoration: none;
 
-
+}
 .navbar a:hover{
     color: #fff;
     border: 1px solid black;
-    fill: #000000;
+    background: #000000;
+}
+.navbar{
+    background: #ffc300;
 }
 .navbar a.active {
     background-color: #0e0020;
@@ -74,7 +78,7 @@ body{
 
 
 .ade{
-    background:  #ffd60a;
+    background: #ffc300;
 }
 
 .klass {
@@ -156,7 +160,7 @@ button:hover {
     overflow: hidden;
 }
 .footer a{
-    color:  #ffc300;
+    color: #ffd60a;
     text-align: center;
     display: block;
     padding: 29px;
@@ -170,7 +174,7 @@ button:hover {
     float: left;
 }
 .footer-logo{
-    color:  #ffc300;
+    color: #ffd60a;
     font-size: 25px;
     font-weight: bold;
     font-style: italic;
@@ -180,4 +184,5 @@ button:hover {
 @media screen and (max-width: 768px){
 .ade-container{
     grid-template-columns: 1vmax 1vmax
-}}
+} 
+}
